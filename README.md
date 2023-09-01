@@ -1,5 +1,5 @@
 # bitskins-v2-wrapper
-An unofficial wrapper for the Bitskins V2 REST API in Python.
+An unofficial wrapper for the Bitskins V2 API in Python.
 
 Quick Start
 -----------
