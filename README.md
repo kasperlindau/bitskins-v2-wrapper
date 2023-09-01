@@ -1,10 +1,11 @@
 # bitskins-v2-wrapper
 An unofficial wrapper for the Bitskins API V2 in Python.
 
-.. code:: bash
+```bash
   pip install bitskins-v2
+```
 
-.. code:: python
+```python
   from bitskins.client import Client
   client = Client(api_key)
 
@@ -13,4 +14,4 @@ An unofficial wrapper for the Bitskins API V2 in Python.
 
   # get account balance
   balance = client.get_account_balance()
-
+```
