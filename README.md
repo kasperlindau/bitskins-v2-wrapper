@@ -1,10 +1,14 @@
 # bitskins-v2-wrapper
-An unofficial wrapper for the Bitskins API V2 in Python.
+An unofficial wrapper for the Bitskins V2 REST API and Websockets in Python.
 
+Quick Start
+-----------
 ```bash
   pip install bitskins-v2
 ```
 
+REST API Example
+-----------
 ```python
   from bitskins.client import Client
   client = Client(api_key)
