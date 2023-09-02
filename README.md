@@ -24,16 +24,16 @@ REST API example
 Websockets example
 -----------
 ```python
-import json
-from bitskins.streams import WebsocketClient
+  import json
+  from bitskins.streams import WebsocketClient
 
-def ws_callback(_, msg):
-  data = json.loads(msg)
-  print(data)
+  def ws_callback(_, msg):
+    data = json.loads(msg)
+    print(data)
 
-ws_client = WebsocketClient(api_key, ws_callback)
+  ws_client = WebsocketClient(api_key, ws_callback)
 
-# subscrive to websocket channels
-ws_client.subscribe("listed")
-ws_client.subscribe("price_changed")
+  # subscrive to websocket channels
+  ws_client.subscribe("listed")
+  ws_client.subscribe("price_changed")
 ```
